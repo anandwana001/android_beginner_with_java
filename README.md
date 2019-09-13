@@ -1,4 +1,4 @@
-# android_beginner_with_java
+Android Beginner with Java College Training sample apps
 
 <p align=left>
   
