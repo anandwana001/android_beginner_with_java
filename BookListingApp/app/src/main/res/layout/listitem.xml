@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_padding"
+    android:layout_margin="@dimen/layout_padding"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:id="@+id/serial_no"
+        android:layout_width="@dimen/ser_wid"
+        android:layout_height="@dimen/ser_hei"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/serial_no_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/book_name"
+        tools:text="1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/bkname"
+            style="@style/CustomBookNameText" />
+        <TextView
+            android:id="@+id/bkauth"
+            style="@style/CustomBookAuthText"
+            android:textSize="@dimen/book_auth" />
+    </LinearLayout>
+</LinearLayout>

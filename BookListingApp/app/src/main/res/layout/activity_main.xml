@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nd.com.booklistingapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/layout_padding"
+        android:weightSum="3">
+        <EditText
+            android:id="@+id/search_word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6"
+            android:inputType="text"
+            android:hint="@string/search_hint"/>
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:background="@drawable/ic_action_search"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/noResultShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_padding"
+        android:visibility="gone"/>
+</LinearLayout>

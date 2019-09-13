@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="nores">No Result Found!</string>
+    <string name="noresnet">Check Your Internet Connectivity</string>
+    <string name="typemsg">Type something to search!</string>
+    <string name="search_sugs">Type in Text Box to find Related Books.</string>
+    <string name="search_hint">Search Book</string>
+    <string name="loading">Loading...</string>
+</resources>

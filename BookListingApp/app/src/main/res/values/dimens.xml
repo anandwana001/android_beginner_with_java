@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="book_name">16sp</dimen>
+    <dimen name="book_auth">10sp</dimen>
+    <dimen name="layout_padding">5dp</dimen>
+    <dimen name="listitem_text_topmargin">1dp</dimen>
+
+    <dimen name="ser_wid">36dp</dimen>
+    <dimen name="ser_hei">36dp</dimen>
+</resources>

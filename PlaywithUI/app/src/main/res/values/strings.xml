@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlaywithUI</string>
+    <string name="btn_msg">Send the data to another activity.</string>
+    <string name="input_hint">Type here to send to another activity</string>
+</resources>
